@@ -10,9 +10,11 @@ class Home extends Component {
         >
           <h1 style={{ color: "white" }}>Homepage</h1>
         </Jumbotron>
+
         <img
           src="https://images.unsplash.com/photo-1563546774646-a7be8e87dd23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
           style={{ margin: 0 }}
+          alt="here is imagee"
         />
       </div>
     );

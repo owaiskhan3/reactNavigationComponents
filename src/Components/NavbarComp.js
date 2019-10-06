@@ -34,9 +34,9 @@ class NavbarComp extends Component {
             </Nav.Link>
           </Nav>
         </Navbar>
-        <div> {this.state.current === "Home" ? <Home /> : null} </div>
-        <div> {this.state.current === "Features" ? <Features /> : null} </div>
-        <div> {this.state.current === "Pricing" ? <Pricing /> : null} </div>
+        <div> {this.state.current === "Home" && <Home />} </div>
+        <div> {this.state.current === "Features" && <Features />} </div>
+        <div> {this.state.current === "Pricing" && <Pricing />} </div>
       </div>
     );
   }
